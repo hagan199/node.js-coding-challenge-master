@@ -1,0 +1,38 @@
+{
+  "name": "js-coding-challenge-master",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "directories": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --recursive"
+  },
+  "author": "emma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-bearer-token": "^2.4.0",
+    "express-session": "^1.17.2",
+    "hash": "^0.2.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.4",
+    "passport": "^0.5.2",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.3.4",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^3.1.0"
+  }
+}
